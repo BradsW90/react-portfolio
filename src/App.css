@@ -1,38 +1,105 @@
-.App {
+* {
+  --color-pallete-one: rgb(17, 226, 198);
+  --color-palette-two: rgb(12, 167, 164);
+  --color-palette-three: rgb(33, 166, 248);
+  --color-palette-four: rgb(140, 66, 183);
+  --color-palette-five: rgb(89, 31, 105);
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: var(--color-palette-four);
+  color: var(--color-pallete-one);
+  font-size: larger;
+}
+
+.header-name {
+  padding-left: 25px;
+  margin: 0 0 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.nav-titles {
+  margin-left: 4.25em;
+  padding: 5px 5px 5px 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navActive {
+  background-color: var(--color-pallete-one);
+  color: var(--color-palette-four);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+footer {
+  background-color: var(--color-palette-four);
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--color-pallete-one);
+  padding: 5px;
+  margin: 5px 10px 5px 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    font-size: large;
+  }
+
+  .header-name {
+    padding-left: 15px;
+  }
+
+  .nav-container {
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-titles {
+    margin-left: 4vw;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 768px) {
+  header {
+    font-size: medium;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header-name {
+    padding-left: 10px;
+  }
+
+  .nav-container {
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-titles {
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    font-size: smaller;
+  }
+
+  .nav-container {
+    margin-left: 0;
   }
 }

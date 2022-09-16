@@ -31,7 +31,7 @@ function App() {
         currentNavTitle={currentNavTitle}
         setNavTitle={setNavTitle}
       ></Nav>
-      <main>{whatDisplays()}</main>
+      <main className="main">{whatDisplays()}</main>
       <footer>
         <a href="https://github.com/bradsw90" target="_blank">
           <FontAwesomeIcon icon={faGithub} />

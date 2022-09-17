@@ -149,6 +149,59 @@ footer a {
   text-align: center;
 }
 
+.contact-wrapper {
+  height: 85vh;
+  text-align: center;
+}
+
+.contact-title {
+  margin: auto;
+  padding-bottom: 10px;
+  color: var(--color-palette-four);
+  border-bottom: 2px solid var(--color-palette-five);
+  width: 45%;
+  font-size: 50px;
+}
+
+.contact-wrapper form {
+  padding: 25px 15px 15px 15px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.contact-wrapper input,
+.contact-wrapper textarea {
+  width: 90%;
+  background-color: var(--color-pallete-one);
+}
+
+.contact-wrapper textarea {
+  margin-top: 3px;
+}
+
+.contact-wrapper p {
+  color: red;
+}
+
+.contact-wrapper button {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--color-palette-four);
+  color: var(--color-palette-three);
+  margin-top: 10px;
+}
+
+.contact-wrapper button:hover {
+  background-color: var(--color-palette-three);
+  color: var(--color-palette-four);
+  transition: 0.5s;
+}
+
 @media only screen and (max-width: 992px) {
   header {
     font-size: large;
@@ -261,5 +314,13 @@ footer a {
   .single-project .project-disc {
     transform: translate(125px, -90px);
     font-size: smaller;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+
+  .contact-wrapper p {
+    font-size: 15px;
   }
 }

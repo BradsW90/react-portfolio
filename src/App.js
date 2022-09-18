@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app-wrapper">
       <Nav
         navTitles={navTitles}
         currentNavTitle={currentNavTitle}

@@ -6,6 +6,16 @@
   --color-palette-five: rgb(89, 31, 105);
 }
 
+html,
+body {
+  height: 100%;
+}
+
+#root,
+.app-wrapper {
+  height: 92.2%;
+}
+
 header {
   display: flex;
   justify-content: left;
@@ -43,6 +53,8 @@ header {
   background-color: var(--color-palette-three);
   padding-left: 10px;
   padding-bottom: 10px;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .main p {
@@ -55,10 +67,13 @@ header {
 }
 
 .about {
-  margin: 0;
+  margin: auto;
   color: var(--color-palette-five);
   padding-bottom: 10px;
   font-size: 40px;
+  text-align: center;
+  border-bottom: 2px solid var(--color-palette-five);
+  width: 20%;
 }
 
 .headshot {
@@ -81,6 +96,22 @@ footer a {
   margin: 5px 10px 5px 10px;
 }
 
+footer a:hover {
+  background-color: var(--color-pallete-one);
+  color: var(--color-palette-four);
+  transition: 0.05s;
+}
+
+.portfolio-title {
+  text-align: center;
+  width: 15%;
+  margin: auto;
+  border-bottom: 2px solid var(--color-palette-five);
+  color: var(--color-palette-five);
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
 .project-image {
   width: 700px;
   height: 350px;
@@ -91,6 +122,7 @@ footer a {
   width: 90%;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .single-project {
@@ -141,7 +173,7 @@ footer a {
 .single-project .project-disc {
   position: relative;
   z-index: 3;
-  color: var(--color-palette-four);
+  color: var(--color-palette-five);
   opacity: 0;
   transition: 0.5s;
   transform: translate(175px, -150px);
@@ -150,17 +182,17 @@ footer a {
 }
 
 .contact-wrapper {
-  height: 85vh;
   text-align: center;
 }
 
-.contact-title {
+.contact-title,
+.title {
   margin: auto;
   padding-bottom: 10px;
   color: var(--color-palette-four);
   border-bottom: 2px solid var(--color-palette-five);
   width: 45%;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .contact-wrapper form {
@@ -200,6 +232,47 @@ footer a {
   background-color: var(--color-palette-three);
   color: var(--color-palette-four);
   transition: 0.5s;
+}
+
+.title {
+  text-align: center;
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: var(--color-palette-four);
+  font-size: 25px;
+  padding: 10px;
+}
+
+.resume-link:hover {
+  background-color: var(--color-palette-four);
+  color: var(--color-pallete-one);
+  transition: 0.5s;
+}
+
+.resume-wrapper p {
+  font-size: medium;
+  color: var(--color-palette-four);
+}
+
+.resume-wrapper h4,
+.resume-wrapper li {
+  color: var(--color-palette-five);
+}
+
+.resume-wrapper ul {
+  line-height: 2;
+}
+
+.resume-wrapper h4 {
+  font-size: 20px;
+}
+
+.resume-wrapper li {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 992px) {

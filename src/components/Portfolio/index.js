@@ -37,6 +37,7 @@ function Portfolio() {
   ]);
   return (
     <div>
+      <h1 className="portfolio-title">Portfolio</h1>
       <div className="project-group">
         {projects.map((image, i) => (
           <div className="single-project" key={i}>

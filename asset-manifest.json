@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.159888e9.css",
+    "main.js": "/react-portfolio/static/js/main.0cbc8d4b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/4.png": "/react-portfolio/static/media/4.04650c366cfe60f379da.png",
+    "static/media/5.png": "/react-portfolio/static/media/5.ef47581bc1716a78e2e8.png",
+    "static/media/0.png": "/react-portfolio/static/media/0.2a0d82744ba404358abb.png",
+    "static/media/2.png": "/react-portfolio/static/media/2.7a642c9e17d17509f479.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.7bbf5ab5d8d4882cef51.png",
+    "static/media/3.png": "/react-portfolio/static/media/3.25f095b2415bf006d45e.png",
+    "static/media/Bradley-resume.pdf": "/react-portfolio/static/media/Bradley-resume.4d9df09e119f9e2bbc4c.pdf",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.2803c0946e386b27c025.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.159888e9.css.map": "/react-portfolio/static/css/main.159888e9.css.map",
+    "main.0cbc8d4b.js.map": "/react-portfolio/static/js/main.0cbc8d4b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.159888e9.css",
+    "static/js/main.0cbc8d4b.js"
+  ]
+}

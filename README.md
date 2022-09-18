@@ -1,55 +1,55 @@
 # React Portfolio [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-  ## Description
+## Description
 
-  A Portfolio built useing React, Node.js, CSS, and JavaScript
+A Portfolio built useing React, Node.js, CSS, and JavaScript
 
-  ## Table of Contents
+## Table of Contents
 
-  - [Installation](#Installation)
+- [Installation](#Installation)
 
-  - [Usage](#Usage)
+- [Usage](#Usage)
 
-  - [License](#License)
+- [License](#License)
 
-  - [Contributing](#Contributing)
+- [Contributing](#Contributing)
 
-  - [Tests](#Tests)
+- [Tests](#Tests)
 
-  - [Questions](#Questions)
+- [Questions](#Questions)
 
-  ## Installation
+## Installation
 
-  Visit the site from the link below! Other wise clone the repo and form correct directory in CLI "npm i" then "npm start"
+Visit the site from the link below! Other wise clone the repo and form correct directory in CLI "npm i" then "npm start"
 
-  ## Usage
+## Usage
 
-  Visit and browse the deployed portfolio
+Visit and browse the deployed portfolio
 
-  Here is an example video demonstrating how to use the application: 
+Here is an example video demonstrating how to use the application:
 
-  ## License
+## License
 
-  This application is covered by : ISC
+This application is covered by : ISC
 
-  ## Contributing
+## Contributing
 
-  Below are my guidelines on how you can contribute to my project
+Below are my guidelines on how you can contribute to my project
 
-  No guidelines
+No guidelines
 
-  ## Tests
+## Tests
 
-  No test instructions
+No test instructions
 
-  ### Questions
+### Questions
 
-  Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
+Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
 
-  undefined
+![web app screenshot](./src/assets/images/portfolio-screenshot.png)
 
-  If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
+To my deployed Portfolio: [http://bradsw90.github.io/react-portfolio]
 
-  My Email: [bswj90@gmail.com](mailto:bswj90@gmail.com)
-  
-  
+If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
+
+My Email: [bswj90@gmail.com](mailto:bswj90@gmail.com)

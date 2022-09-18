@@ -2,30 +2,41 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
+  //Hook to watch form inputs
   const [formState, setFormState] = useState({
     name: "",
     email: "",
     message: "",
   });
 
+  //determine and display current error message
   const [errorMessage, setErrorMessage] = useState("");
+  //destructure for readability
   const { name, email, message } = formState;
 
+  //function to watch for input
   function handleChange(e) {
+    //if target is email verifiy email is correct
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
+      //if email is not correct send error else clear error
       if (!isValid) {
         setErrorMessage("Please enter a correct email address!");
       } else {
         setErrorMessage("");
       }
-    } else {
+    }
+    //if target is not email
+    else {
+      //if no input send error else clear error
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} field can not be blank!`);
       } else {
         setErrorMessage("");
       }
     }
+
+    //if no error message update form state
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
     }

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Portfolio() {
+  //sets up hook to use for each projects nessesary data
   const [projects] = useState([
     {
       name: "Bring The Tech",

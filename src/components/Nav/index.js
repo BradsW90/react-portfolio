@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 
 function Nav(props) {
+  //destructures props sent from app.js file
   const { navTitles = [], currentNavTitle, setNavTitle } = props;
 
+  //updates page title dependant on which nav is clicked
   useEffect(() => {
     document.title = currentNavTitle;
   }, [currentNavTitle]);

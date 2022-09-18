@@ -13,10 +13,13 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  //sets array to send to nav for nav display
   const [navTitles] = useState(["About Me", "Portfolio", "Contact", "Resume"]);
 
+  //setup hook for nav
   const [currentNavTitle, setNavTitle] = useState(navTitles[0]);
 
+  //conditionally renders page dependant on current title
   function whatDisplays() {
     switch (currentNavTitle) {
       case "Portfolio":

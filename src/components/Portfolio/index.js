@@ -35,6 +35,11 @@ function Portfolio() {
       deployed: "https://bradsw90.github.io/run-buddy",
       repo: "https://github.com/BradsW90/run-buddy",
     },
+    {
+      name: "Carolina Convo",
+      deployed: "https://sleepy-retreat-23011.herokuapp.com/",
+      repo: "https://github.com/jakem8532/carolina-convo",
+    },
   ]);
   return (
     <div>
